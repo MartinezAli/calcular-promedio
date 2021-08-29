@@ -1,0 +1,103 @@
+/*
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li img{
+    width: 42px;
+    height: 42px;
+}
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #04cd87;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+header img{
+    margin-left: 30px;
+}
+
+header img{
+    width: 45px;
+    height: 45px;
+}
+
+main{
+    background-color: #f9f9f9;
+    height: 90vh;
+    min-width: 100%;
+}
+
+.principal{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.modelo{
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    width: 450px;
+    height: 400px;
+    background-color: #e9f7fa;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #02e66b;
+    padding: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, input, .caja-operacion,p,button{
+    margin-top: 20px;
+}
+
+form label, input{
+    font-size: 25px;
+}
+
+form button{
+    border-radius: 30px;
+    border-color: #00abab;
+    border-style: solid;
+    padding: 5px 15px;
+    background-color: #fffefa;
+    color: #00abab;
+}
+
+form p{
+    font-size: 18px;
+}
+
